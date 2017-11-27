@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		184A0D191FC965E400E96F84 /* TradingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A0D181FC965E400E96F84 /* TradingAPI.swift */; };
 		186C580D1F89DAE7000FDCC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186C580C1F89DAE7000FDCC4 /* AppDelegate.swift */; };
 		186C580F1F89DAE7000FDCC4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186C580E1F89DAE7000FDCC4 /* FirstViewController.swift */; };
 		186C58111F89DAE7000FDCC4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186C58101F89DAE7000FDCC4 /* SecondViewController.swift */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		184A0D181FC965E400E96F84 /* TradingAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingAPI.swift; sourceTree = "<group>"; };
+		184A0D1A1FC96D2B00E96F84 /* companylist.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = companylist.csv; sourceTree = "<group>"; };
 		186C58091F89DAE7000FDCC4 /* TradingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		186C580C1F89DAE7000FDCC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		186C580E1F89DAE7000FDCC4 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -85,7 +88,9 @@
 				186C58121F89DAE7000FDCC4 /* Main.storyboard */,
 				186C58151F89DAE7000FDCC4 /* Assets.xcassets */,
 				186C58171F89DAE7000FDCC4 /* LaunchScreen.storyboard */,
+				184A0D1A1FC96D2B00E96F84 /* companylist.csv */,
 				186C581A1F89DAE7000FDCC4 /* Info.plist */,
+				184A0D181FC965E400E96F84 /* TradingAPI.swift */,
 			);
 			path = TradingGame;
 			sourceTree = "<group>";
@@ -204,6 +209,7 @@
 			files = (
 				186C58111F89DAE7000FDCC4 /* SecondViewController.swift in Sources */,
 				186C580D1F89DAE7000FDCC4 /* AppDelegate.swift in Sources */,
+				184A0D191FC965E400E96F84 /* TradingAPI.swift in Sources */,
 				186C580F1F89DAE7000FDCC4 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
