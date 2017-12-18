@@ -10,19 +10,6 @@
 
 // function=TIME_SERIES_INTRADAY
 
-
-
-struct Company {
-    let symbol: String
-    let name: String
-    let lastSale: Float
-    let marketCap: Float
-    let ipoYear: Int
-    let sector: String
-    let industry: String
-    let summaryQuote: URL
-}
-
 import Foundation
 
 class SessionController: URLSessionDelegate {

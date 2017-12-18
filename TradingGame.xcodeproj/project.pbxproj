@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180BF9FC1FE519F6006F3B30 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180BF9FB1FE519F6006F3B30 /* Company.swift */; };
+		180BF9FF1FE51B74006F3B30 /* SerializationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180BF9FE1FE51B74006F3B30 /* SerializationHelper.swift */; };
 		184A0D191FC965E400E96F84 /* TradingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A0D181FC965E400E96F84 /* TradingAPI.swift */; };
 		186C580D1F89DAE7000FDCC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186C580C1F89DAE7000FDCC4 /* AppDelegate.swift */; };
 		186C580F1F89DAE7000FDCC4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186C580E1F89DAE7000FDCC4 /* FirstViewController.swift */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		180BF9FB1FE519F6006F3B30 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		180BF9FE1FE51B74006F3B30 /* SerializationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerializationHelper.swift; sourceTree = "<group>"; };
 		184A0D181FC965E400E96F84 /* TradingAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingAPI.swift; sourceTree = "<group>"; };
 		184A0D1A1FC96D2B00E96F84 /* companylist.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = companylist.csv; sourceTree = "<group>"; };
 		186C58091F89DAE7000FDCC4 /* TradingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +65,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180BF9FA1FE519E7006F3B30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				180BF9FB1FE519F6006F3B30 /* Company.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		180BF9FD1FE51B66006F3B30 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				180BF9FE1FE51B74006F3B30 /* SerializationHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		186C58001F89DAE7000FDCC4 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +102,8 @@
 		186C580B1F89DAE7000FDCC4 /* TradingGame */ = {
 			isa = PBXGroup;
 			children = (
+				180BF9FD1FE51B66006F3B30 /* Helpers */,
+				180BF9FA1FE519E7006F3B30 /* Model */,
 				186C580C1F89DAE7000FDCC4 /* AppDelegate.swift */,
 				186C580E1F89DAE7000FDCC4 /* FirstViewController.swift */,
 				186C58101F89DAE7000FDCC4 /* SecondViewController.swift */,
@@ -207,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				180BF9FF1FE51B74006F3B30 /* SerializationHelper.swift in Sources */,
 				186C58111F89DAE7000FDCC4 /* SecondViewController.swift in Sources */,
 				186C580D1F89DAE7000FDCC4 /* AppDelegate.swift in Sources */,
 				184A0D191FC965E400E96F84 /* TradingAPI.swift in Sources */,
+				180BF9FC1FE519F6006F3B30 /* Company.swift in Sources */,
 				186C580F1F89DAE7000FDCC4 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
